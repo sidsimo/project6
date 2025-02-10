@@ -32,19 +32,19 @@
     outline-color: #4a56be;
 }
 #result{
-    width: 90%;
-    height: 400px;
-    color: #3a3a3a;
+    max-width: 100%;
+    color: #000;
+    /* height: 400px;
+    color: initial;
     font-size: 18px;
     border: 1px solid #3a3a3a;
-    /* padding-left: 0.5rem; */
+    padding-left: 0.5rem;
     display: block;
     margin: auto;
     margin-top: 1rem;
-    border-radius: 0.5rem;
     margin-bottom: 1rem;
     background-color: aliceblue;
-    display: none;
+    display: none; */
 }
 #jems{
     padding: 10px;
