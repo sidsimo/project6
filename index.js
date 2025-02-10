@@ -7,6 +7,7 @@ divin.onclick = ()=> {
     localStorage.setItem("Result" , codes.value);
 }
 jems.onclick = ()=> {
+    result.innerHTML = "";
     localStorage.clear();
 }
 onload = ()=> {
