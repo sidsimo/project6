@@ -1,12 +1,16 @@
 var result = document.getElementById("result");
 var codes = document.getElementById("codes");
-var btn = document.getElementById("btn");
-var btnx = document.getElementById("btnx");
-btnx.onclick = ()=> {
+var jems = document.getElementById("jems");
+var divin = document.getElementById("divin");
+divin.onclick = ()=> {
+    result.style.display = "block";
+    result.style.height = "auto";
+    result.style.width = "auto";
     result.innerHTML = codes.value;
     localStorage.setItem("Result" , codes.value);
 }
-btn.onclick = ()=> {
+jems.onclick = ()=> {
+    result.style.display = "none";
     result.innerHTML = "";
     localStorage.clear();
 }
